@@ -1,0 +1,20 @@
+{
+  "id": "opus-meets-chinese-aesthetics",
+  "title": {
+    "en": "If Opus 5.5 met Chinese aesthetics",
+    "zh": "假如 Opus 5.5 遇上中式美学"
+  },
+  "intro": {
+    "en": "A circular window where sunrise, ink, cells, celadon, and the shared curves of a bridge, an eave, a jade bi, a round fan, a moon gate and a bronze mirror turn into one another. Drag the arc.",
+    "zh": "一扇圆窗里，日出、水墨、细胞、青瓷，以及拱桥、飞檐、玉璧、团扇、月洞门与铜镜共用同一条弧，彼此化生。抚动这一弧即可穿行。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/arc.css",
+    "vendor/arc.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/opus-meets-chinese-aesthetics"
+}
