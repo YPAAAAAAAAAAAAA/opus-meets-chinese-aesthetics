@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #f3eee4;
+  overscroll-behavior: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  font-family: "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", Palatino, "Palatino Linotype", "Times New Roman", Times, serif;
+}
+
+#canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}
+
+#gb-ui-toggle {
+  position: fixed !important;
+  top: 8px !important;
+  right: 8px !important;
+  left: auto !important;
+  bottom: auto !important;
+  width: 44px !important;
+  height: 44px !important;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 3px !important;
+  background: rgba(194, 58, 46, 0.88) !important;
+  color: #f6f1e6 !important;
+  font: 600 15px/44px "Songti SC", "STSong", "Noto Serif CJK SC", serif !important;
+  text-align: center;
+  opacity: 0.9 !important;
+  z-index: 5;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: 0 1px 0 rgba(80, 20, 14, 0.25);
+}
+
+html.gb-ui-open #gb-ui-toggle {
+  opacity: 1 !important;
+  background: rgba(158, 42, 34, 0.95) !important;
+}
+
+#info {
+  display: none;
+  position: absolute;
+  top: 58px;
+  right: 8px;
+  width: min(176px, 42vw);
+  max-height: 40vh;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 12px 12px 14px;
+  border-radius: 2px;
+  background: rgba(246, 241, 230, 0.94);
+  color: #1c1814;
+  font: 12px/1.45 "Songti SC", "STSong", "Noto Serif CJK SC", Palatino, "Times New Roman", serif;
+  z-index: 4;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
+  box-shadow: 0 8px 28px rgba(40, 28, 16, 0.12);
+}
+
+html.gb-ui-open #info {
+  display: block;
+}
+
+#info p {
+  margin: 0 0 8px;
+}
+
+#info .name {
+  font-size: 15px;
+  letter-spacing: 0.18em;
+}
+
+#info .credit {
+  font-size: 10px;
+  line-height: 1.4;
+  color: rgba(28, 24, 20, 0.72);
+}
